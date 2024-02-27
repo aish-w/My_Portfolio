@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio | Aishwarya Maheshwari Web">
+    <meta name="robots" content="index,follow">
+
+    <title>My Portfolio</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="logo-ma.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">About Me</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Skills</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formation</a>
+            <a href="#proyectos" data-section="menu" data-value="item5">Project</a>
+            <a href="#contacto" data-section="menu" data-value="item6">Contact</a>
+
+            <!-- Idiomas de la página -->
+            <!--<div id="flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="./assets/images/icon-spain.png" alt="Español/Spain">
+                </div>
+                <div class="flags__item" data-language="en">
+                    <img src="./assets/images/icon-en.png" alt="Inglés/English">
+                </div>
+            </div>-->
+        </nav>
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="image-home.png" alt="Ilustración mujer y plantas">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hello!! I am</p>
+                    <p class="home_text-2">Aishwarya Maheshwari</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Front-End Web Developer</p>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p data-section="home" data-value="parrafo-info">As a person who loves intuitive and aesthetically pleasing designs, I seek to create projects that provide the best user experience.</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1vqNvTy7TjiHEr33-bIs6hAqqS5iU5ccJ/view" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Download Resume</button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button" data-section="home" data-value="contact_button">Contact</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/
+                aishwarya-maheshwari-26589b229" target="_blank">
+                    <img src="icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/aish-w" target="_blank">
+                    <img src="icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+                <a href="https://leetcode.com/maheshwari_aishwarya/" target="_blank">
+                    <img src="icon-codepen.png" alt="Leetcode" class="icon-CodePen">
+                </a>
+                <a href="https://www.instagram.com/aishwarya._.maheshwari/" target="_blank">
+                    <img src="icon-instagram.png" alt="Instagram" class="icon-instagram">
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section class="sobreMi" id="sobreMi">
+            <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">About Me</h1>
+            <div class="container_content-sobreMi" data-aos="fade-right">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Aishwarya Maheshwari</span>
+                    <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">I am an undergraduate student of Statistics and a self-taught student of Web Development focused on Frontend programming.<br>I aspire to get a job in the world of Web Development, gain experience, new knowledge and strengthen my professional life.<br><br>I am an empathetic and enthusiastic person, with skills focused on teamwork, assertive communication, problem solving, responsible and proactive, I like to learn from others and improve myself continuously.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi">
+                    <img class="image_sobreMi" src="image-sobreMi.png" alt="Ilustración mujer y café">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Skills</h1>
+
+            <img src="puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="icon-html.png" alt="HTML">
+                    <p>HTML 5</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="icon-css.png" alt="CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="icon-js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="download.png" alt="Notion">
+                    <p>React Js</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="1686391647921.png" alt="Tailwind">
+                    <p>Express Js</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="icon-git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="icon-github-hab.png" alt="GitHub">
+                    <p>Github</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="nodejs.png" alt="Trello">
+                    <p>Node Js</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Education</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="psit.png" alt="Logo - Universidad Nacional de Colombia">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">PSIT</p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2021-2025</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="omss.png" alt="Logo - ONE: Oracle Next Education">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">OMSS</p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2021(Senior Secondary Certificate)</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="omss.png" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">OMSS</p>
+                        <p>2019(Higher Secondary Certificate)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Projects</h1>
+
+            <img src="puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+                <div class="cards--proyectos card_JuegoAhorcado" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="loan-emi-calculator.png" alt="Proyecto: Juego del ahorcado">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">Loan Calculator</h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">A loan calculator that swiftly computes your.EMI, Total Payable amount, and Interest Payable, enabling informed financial decisions.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://aish-w.github.io/LOAN-CALCULATOR/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/aish-w/LOAN-CALCULATOR" target="_blank">
+                            <button class="btn_repo">
+                                <img src="icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="recipeapp.png" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Recipe App</h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">A recipe app leveraging APIs can seamlessly retrieve detailed recipe information, including ingredients and step-by-step instructions, from external sources. </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://aish-w.github.io/RecipeApp/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/aish-w/RecipeApp" target="_blank">
+                            <button class="btn_repo">
+                                <img src="icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="download (2).png" alt="Proyecto: Encriptador">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Security Analysis Website</h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">A security analysis website assesses vulnerabilities and risks in digital systems, providing insights through comprehensive scans and reports.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://aish-w.github.io/security-analysis-website/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+
+                        <a href="https://github.com/aish-w/security-analysis-website" target="_blank">
+                            <button class="btn_repo">
+                                <img src="icon-githubProyecto.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- Contact -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contact</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p data-section="contacto" data-value="text">Complete the following form, and I will get in touch with you as soon as possible.</p>
+                    </div>
+    
+                    <form id="form" action="mailto:aishwaryamaheshwari02@gmail.com" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Full Name" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Subject" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Message" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/aishwarya-maheshwari-26589b229" target="_blank">
+                    <img src="icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/aish-w" target="_blank">
+                    <img src="icon-github.png" alt="GitHub">
+                </a>
+                <a href="https://leetcode.com/maheshwari_aishwarya/" target="_blank">
+                    <img src="icon-codepen.png" alt="CodePen" class="icon_codepen--footer">
+                </a>
+                <a href="https://www.instagram.com/aishwarya._.maheshwari/" target="_blank">
+                    <img src="icon-instagram.png" alt="Instagram"">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Coded with</span>
+                <img src="icon-corazon.png" alt="Corazón">
+                <span>by</span>
+                <span>Aishwarya Maheshwari</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="script.js"></script>
+</body>
+</html>
